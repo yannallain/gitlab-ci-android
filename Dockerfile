@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 MAINTAINER Jan Grewe <jan@faked.org>
 
-ENV VERSION_TOOLS "9477386"
+ENV VERSION_TOOLS "11076708"
 
 ENV ANDROID_SDK_ROOT "/sdk"
 # Keep alias for compatibility
@@ -15,7 +15,7 @@ RUN apt-get -qq update \
       curl \
       git-core \
       html2text \
-      openjdk-17-jdk \
+      openjdk-21-jdk \
       libc6-i386 \
       lib32stdc++6 \
       lib32gcc1 \
